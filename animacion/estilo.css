@@ -1,0 +1,51 @@
+*{ margin: 0px;
+    padding: 0px;}
+.superior{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+padding-bottom: 40px;
+margin-bottom: 20px;
+}
+.derecha{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    grid-template-columns: repeat(3, 1fr);  
+    display: grid;
+    gap: 0rem;
+    justify-content: stretch;}
+.derecha1{
+text-align: center;
+color: red;
+background-color: rgb(255, 123, 0);
+}
+.derecha1:hover{
+    background-color: rgba(0, 110, 255, 0.76);
+    cursor:pointer ;}
+.derecha2{
+    width: 100%;
+    text-align: center;
+    color: red;
+    background-color: rgb(255, 123, 0);}
+.derecha3{
+    width: 100%;
+        text-align: center;
+        color: red;
+        background-color: rgb(255, 123, 0);    }
+h1{
+    text-align: center;
+}
+img{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% ; 
+    border: 5px solid white;     
+}
+.circulo:hover{
+    transition: all 800ms ease-in;
+    border-radius: 20px 100px 20px 50px;
+    border: 2px solid red;
+}
+
